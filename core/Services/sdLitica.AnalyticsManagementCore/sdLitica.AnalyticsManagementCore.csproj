@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\sdLitica.Messages\sdLitica.Messages.csproj" />
+    <ProjectReference Include="..\..\Data\sdLitica.Relational\sdLitica.Relational.csproj" />
+    <ProjectReference Include="..\..\Domain\sdLitica.Events\sdLitica.Events.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\sdLitica.Exceptions\sdLitica.Exceptions.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\sdLitica.Utils\sdLitica.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
